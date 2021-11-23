@@ -1,0 +1,151 @@
+.hint1 , .hint2 , .hint3 , .hint4 , .hint5{
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+}
+.head-navbar{
+  padding: 25px 0px 0px 0px;
+  background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    position: relative;
+    z-index: 1;
+}
+.head-navbar .container .row .title > h1{
+  color: #fff;
+  font-weight: bold;
+}
+.head-navbar .container .row .nav-form form table tr th label{
+  color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    font-size: 13px;
+}
+.head-navbar .container .row .nav-form form table tr th input{
+  outline: none;
+}
+.head-navbar .container .row .nav-form form table tr th > .inpt{
+  margin-left: 10px;
+}
+.head-navbar .container .row .nav-form form table tr th button{
+  margin-top: 3px;
+  background-color: #5a7cc3;
+  border:1px solid #5a7cc3;
+  outline: none;
+  margin-left: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.content{
+  background-image: linear-gradient(#fff, #D3D8E8);
+}
+.content .container .row .info{
+  width: 100%;
+}
+.content .container .row .info > p{
+  color: #0e385f;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 29px;
+      margin-top: 40px;
+      width: 450px;
+      word-spacing: -1px;
+      width: 100%;
+}
+.content .container .row .info > img{
+  width: 100%;
+}
+.alert-warning {
+    color: #ffffff;
+    background-color: #f50101;
+    border-color: #ffeeba;
+}
+.content .container .row .account{
+  width: 100%;
+}
+.content .container .row .account > h2{
+  font-weight:bold;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.content .container .row .account > p{
+  color: #1d2129;
+  font-size: 19px;
+  font-weight: bold;
+  }
+.content .container .row .account  > form .signUpForm{
+  width: 80%;
+}
+.content .container .row .account  > form .signUpForm > table tr th input{
+  margin-bottom: 10px;
+}
+.content .container .row .account  > form .signUpForm > table tr th .email{
+  margin-left: 2px;
+}
+.content .container .row .account  > form .signUpForm > table tr th input ,
+.content .container .row .account  > form .signUpForm > input{
+  font-family: inherit;
+  font-size: 18px;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+.content .container .row .account  > form .signUpForm > p{
+  color: #90949c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.content .container .row .account  > form .signUpForm > table  tr  th  select{
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    background-color: #fff;
+    color: #1c1e21;
+    border: 1px solid #ccd0d5;
+    outline: none;
+}
+.content .container .row .account > form  .signUpForm .form-group > label{
+  color: #1d2129;
+      font-size: 18px;
+      font-weight: normal;
+      line-height: 18px;
+      padding: 0 10px 0 3px;
+  }
+.content .container .row .account > form .signUpForm > h6{
+  color: #777;
+    font-size: 11px;
+    width: 316px;
+}
+.content .container .row .account > form  .signUpForm > h6 > span{
+  color: #3b5998;
+}
+.content .container .row .account  > form .signUpForm > h6 > span:hover{
+  color: #3b5998;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.content .container .row .account  > form .signUpForm > button{
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    background: linear-gradient(#67ae55, #578843);
+box-shadow: inset 0 1px 1px #a4e388;
+border: 1px solid #2c5115;
+font-size: 19px;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    margin-bottom: 10px;
+    outline: none;
+}

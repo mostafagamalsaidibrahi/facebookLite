@@ -1,0 +1,180 @@
+
+
+.container .tab-content .addFriend .container .row .friendZone .friend{
+    background-color: #f7f7f7;
+    width: 25%;
+    height: 300px;
+    margin-right: 8%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .profileImage{
+    height:60%;
+    text-align: center;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .profileImage > img{
+    width: 50%;
+    height: 100%;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .fullname{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .fullname > a{
+    color: #000000;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .fullname > a span{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .btnAdd{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.container .tab-content .addFriend .container .row .friendZone .friend .btnAdd > input{
+    border: 1px solid blue;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: blue;
+    border-radius: 10px;
+    outline: none;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend{
+    background-color: #f7f7f7;
+    width: 25%;
+    height: 200px;
+    margin-right: 8%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend .profileImage{
+    height:80%;
+    text-align: center;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend .profileImage > img{
+    width: 50%;
+    height: 100%;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend .fullname{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend .fullname > a{
+    color: #000000;
+}
+.container .tab-content .myFriends .container .row .friendZone .friend .fullname > a span{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend{
+    background-color: #f7f7f7;
+    width: 25%;
+    height: 300px;
+    margin-right: 8%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .profileImage{
+    height:60%;
+    text-align: center;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .profileImage > img{
+    width: 50%;
+    height: 100%;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .fullname{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .fullname > a{
+    color: #000000;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .fullname > a span{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .btnAdd{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.container .tab-content .friendRequestsStatus .container .row .friendZone .friend .btnAdd > span{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: green;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend{
+    background-color: #f7f7f7;
+    width: 25%;
+    height: 300px;
+    margin-right: 8%;
+    border-radius: 20px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .profileImage{
+    height:60%;
+    text-align: center;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .profileImage > img{
+    width: 50%;
+    height: 100%;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .fullname{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .fullname > a{
+    color: #000000;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .fullname > a span{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .btnAdd{
+    height: 20%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .btnAdd > form{
+    display: inline;
+}
+.container .tab-content .friendRequests .container .row .friendZone .friend .btnAdd > form a{
+    padding: 10px 5px;
+    color: green;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+.back{
+    padding: 20px;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.back a{
+    text-decoration: none;
+    color: blue;
+}
+.back a i{
+    font-size: 50px;
+}

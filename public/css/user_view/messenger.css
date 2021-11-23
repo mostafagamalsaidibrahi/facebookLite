@@ -1,0 +1,131 @@
+body{
+    background-color: #ffffff;
+}
+.onlineFriends{
+    background-color: #ffffff;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px #888888;
+    font-size: 30px;
+}
+.onlineFriends .head{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+.onlineFriends .friendSearch{
+    padding: 10px;
+    width: 100%;
+    height: 10%;
+}
+.onlineFriends .friendSearch > input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    border: 1px solid #F2F3F5;
+    background-color: #F2F3F5 ;
+    outline: none;
+}
+.onlineFriends .friends{
+    height: 70%;
+    padding-top: 10px;
+    width: 100%;
+}
+.onlineFriends .friends .content{
+    padding: 6px 0px 6px 0px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+}
+.onlineFriends .friends .content:hover{
+    background-color: #F2F3F5;
+    padding: 6px 0px 6px 0px;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+}
+.onlineFriends .friends .content > img{
+    width: 20%;
+    height: 30%;
+    border-radius: 20px;
+}
+.onlineFriends .friends .content > span{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.onlineFriends .friends .content > span i{
+    color: green;
+    font-size: 20px;
+}
+.chatContent{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+.chatContent .friendData .content{
+    width: 60%;
+}
+.chatContent .friendData .content > img{
+    width: 20%;
+    border-radius: 20px;
+}
+.chatContent .friendData .content > span{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.chatContent .chatWindow{
+    height: 70%;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.chatContent .chatWindow .messages{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80%;
+    width: 100%;
+}
+.chatContent .chatWindow .messages .messageDetails{
+    width: 95%;
+    margin: auto;
+    height: 90%;
+}
+.chatContent .chatWindow .messages .messageDetails .iSend{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    color: #000000;
+    font-weight: bold;
+}
+.chatContent .chatWindow .messages .messageDetails .iReceive{
+    background-color: #aaa;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 50%;
+    color: #ffffff;
+    font-weight: bold;
+}
+.chatContent .chatWindow .actions{
+    height: 20%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #888888;
+}
+.chatContent .chatWindow .actions > input{
+    width: 90%;
+    outline: none !important;
+}
+.chatContent .chatWindow .actions > table tr th  span i{
+    font-size: 30px;
+    cursor: pointer;
+    color: green;
+}

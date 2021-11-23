@@ -1,0 +1,147 @@
+body{
+    background-color: #F2F3F5;
+}
+/* #129af6 */
+.navbar{
+    background-color: white !important;
+    padding: 10px;
+    box-shadow: 0px 1.5px #ddd;
+}
+.navbar .iconAndName > table tr th i{
+    color: #ffffff;
+    font-size: 30px;
+    border:1px solid #129af6;
+    border-radius: 40px;
+    padding: 5px 10px;
+    background-color: #129af6;
+}
+.navbar .iconAndName > table tr th input{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border : 1px solid #eeeeee ;
+    background-color: #eeeeee;
+    outline: none;
+    margin-left: 10px;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-left: 30%;
+}
+.navbar-expand-lg .navbar-nav li a{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.navbar-expand-lg .navbar-nav .active{
+    border-bottom: 4px solid #1877f2;
+    padding-bottom: 5px;
+    display: block;
+}
+.navbar-expand-lg .navbar-nav .other a{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #000000;
+}
+.navbar-expand-lg .navbar-nav .other a:hover{
+    background-color: #ebebf1;
+    color: #000000;
+}
+nav .collapse form .imageAndPhoto > table tr th img{
+    border-radius: 30px;
+}
+nav .collapse form .imageAndPhoto > table tr th p{
+    margin-bottom: 0 !important;
+    margin-left: 10px;
+}
+nav .collapse form .imageAndPhoto > table tr th p a{
+    color: #000000;
+}
+.modal-dialog .modal-content .modal-body > textarea{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 0px 0px 10px;
+}
+.modal-dialog .modal-content .modal-footer .add{
+    background-color: #1877f2;
+    border: 1px solid #1877f2;
+}
+.left-section{
+    background-color: #F2F3F5;
+    margin-top: 10px;
+    width: 80px;
+    height: 170px;
+    padding-top: 20px;
+    box-shadow: 0px 0px 10px 0px #888;
+}
+.left-section a img{
+    width: 80%;
+}
+.left-section a img:hover{
+    width: 85%;
+}
+.changable{
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+.changable .posts{
+    width: 100%;
+    background-color: #eee;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    box-shadow: 5px 5px  5px 5px #888888;
+}
+.changable .posts .data{
+    padding-bottom: 10px;
+}
+.changable .posts .data > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.changable .posts .data > .name{
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    color: #000000;
+}
+.changable .posts .data > .name a{
+    color: #000000;
+    margin-left: 4px;
+}
+.changable .posts .data > .time{
+    font-size: 20px;
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    color: #aaa;
+    margin-left: 30px;
+}
+.changable .posts .postContent{
+    margin-top: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.changable .posts .postContent > p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.changable .posts .actions{
+    box-shadow: 0px  #ddd;
+    padding: 20px;
+}
+.changable .posts .actions .container .row .like p ,
+.changable .posts .actions .container .row .like p > i{
+    padding: 0px;
+    margin: 0;
+}
+.changable .posts .actions .container .row .like p > i ,
+.changable .posts .actions .container .row .comment p > i ,
+.changable .posts .actions .container .row .share p > i{
+    color: #000000;
+    font-size: 30px;
+}
